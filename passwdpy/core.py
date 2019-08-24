@@ -3,8 +3,8 @@ import string
 
 
 def generate_random_str(length):
-    randomlst = random.choices(string.ascii_letters+string.digits, k=length)
-    return ''.join(randomlst)
+    randomstr = random.choices(string.ascii_letters+string.digits, k=length)
+    return ''.join(randomstr)
 
 
 if __name__ == '__main__':
