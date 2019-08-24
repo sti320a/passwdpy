@@ -10,7 +10,7 @@ class TestCore(TestCase):
 
     def test_generate_passwd_complexity(self):
         import string
-        target_passwd = generate_passwd(1)
+        target_passwd = generate_passwd(10)
         lower_cases = string.ascii_lowercase
         is_included_lowercase = True if set(
             list(target_passwd)
