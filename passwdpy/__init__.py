@@ -1,5 +1,5 @@
-from passwdpy.core import generate_random_str
+from passwdpy.core import generate_passwd
 
 __all__ = [
-    'generate_random_str',
+    'generate_passwd',
 ]
