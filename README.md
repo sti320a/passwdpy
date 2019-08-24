@@ -1,8 +1,9 @@
 # passwdpy
-パスワードを生成するためのもの
-For generating password.
+For generating password with Python.
 
-[Usage]
+```
+ex)
 >>> import passwdpy
 >>> passwdpy.generate_passwd(10)
 'G6whsCZ8eZ'
+```
