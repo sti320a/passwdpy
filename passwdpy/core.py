@@ -8,5 +8,4 @@ def generate_passwd(length):
 
 
 if __name__ == '__main__':
-    n = int(input())
-    print(generate_passwd(n))
+    print(generate_passwd(int(input('Enter passwd length: '))))
